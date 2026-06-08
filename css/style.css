@@ -1,0 +1,37 @@
+:root {
+/*declaração de variáveis*/
+--cor-letra: #000000;
+--cor-letra-h1: #ffd900;
+--cor-letra-h2: #ffd900;
+--fonte-padrao: 'Arial', sans-serif;
+--cor-fundo1: #0e8ed8; 
+--cor-fundo2: #2198dd;
+--img-width:300px;
+--img-height:auto;
+
+}
+
+body {
+font-family: var(--fonte-padrao) ;
+background-color: var(--cor-fundo1);
+
+}
+h1{
+color: var(--cor-letra);
+
+}
+
+img{
+width: var(--img-width);
+height: var(--img-height);
+
+}
+
+div {
+/*100% viweport width*/
+width: 100vw;
+/*100% viweport height*/
+height: 100vh;
+background-color: var(--cor-fundo2);
+
+}
